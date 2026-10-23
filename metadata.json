@@ -1,6 +1,6 @@
 {
-  "name": "Математичний Трон",
-  "description": "Онлайн-тест з алгебри та геометрії для 10-го класу. 15 завдань, 3 раунди, 5 сердечок, 2 хвилини на кожне завдання та детальні пояснення.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+    "name": "Математичний Трон",
+    "description": "Онлайн-тест з алгебри та геометрії для 10-го класу. 15 завдань, 3 раунди, 5 сердечок, 2 хвилини на кожне завдання та детальні пояснення.",
+    "requestFramePermissions": [],
+    "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

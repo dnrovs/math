@@ -87,6 +87,10 @@ export const StartScreen: React.FC<StartScreenProps> = ({
                     <span>Почати гру</span>
                 </button>
             </div>
+
+            <span className="mt-5 text-xs font-black text-white/5 select-none">
+                ♫ korniy love - banepi
+            </span>
         </div>
     )
 }

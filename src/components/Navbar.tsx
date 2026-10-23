@@ -28,7 +28,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     return (
         <header className="sticky top-0 z-30 w-full border-b border-slate-800 bg-slate-950/95 px-3 py-2.5 backdrop-blur-md sm:px-6">
             <div className="mx-auto flex max-w-4xl items-center justify-between gap-3">
-                <div className="flex items-center gap-2">
+                <div className="flex items-center max-sm:hidden gap-2">
                     <div className="flex h-8 w-8 items-center justify-center rounded-lg border border-amber-500/30 bg-amber-500/10 text-amber-400">
                         <Crown className="h-4 w-4" />
                     </div>

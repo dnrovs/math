@@ -42,7 +42,7 @@ export const KnightProgress: React.FC<KnightProgressProps> = ({
             <div className="mb-1 flex items-center justify-between px-1 text-xs font-semibold">
                 <div className="flex items-center gap-2">
                     <span className="text-[11px] font-bold tracking-wider text-amber-400 uppercase sm:text-xs">
-                        Підйом лицаря сходами до Трону:
+                        Підйом лицаря до Трону:
                     </span>
                 </div>
                 <div className="text-right">

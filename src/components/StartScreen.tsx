@@ -40,12 +40,7 @@ export const StartScreen: React.FC<StartScreenProps> = ({
                 <h1 className="mb-2 text-3xl font-bold text-slate-100 sm:text-4xl">
                     Математичний трон
                 </h1>
-
-                <p className="mb-6 text-sm text-slate-400">
-                    Онлайн-гра з алгебри та геометрії • 10-й клас (рівень
-                    стандарту)
-                </p>
-
+                
                 <div className="mb-8 grid grid-cols-1 gap-3 text-left sm:grid-cols-2">
                     <div className="flex items-center gap-3 rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
                         <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-rose-500/30 bg-rose-500/10 text-rose-500">

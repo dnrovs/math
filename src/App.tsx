@@ -9,7 +9,7 @@ import { StartScreen } from './components/StartScreen'
 import { EndScreen } from './components/EndScreen'
 import { KnightProgress } from './components/KnightProgress'
 
-import korniyLove from '../public/assets/korniy-love.mp3'
+// import korniyLove from '../public/assets/korniy-love.mp3'
 
 const MAX_HEARTS = 5
 const QUESTION_DURATION = 120
@@ -38,7 +38,7 @@ export default function App() {
     const backgroundMusic = useRef<HTMLAudioElement | null>(null)
 
     useEffect(() => {
-        backgroundMusic.current = new Audio(korniyLove)
+        backgroundMusic.current = new Audio('/')//(korniyLove)
         backgroundMusic.current.loop = true
 
         return () => {
